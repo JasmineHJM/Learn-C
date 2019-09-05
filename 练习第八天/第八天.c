@@ -14,6 +14,16 @@ int main81()
 	return 0;
 }
 
+int main811()
+{
+	char s[] = "\\123456\128456\t";
+	printf("%d\n", strlen(s));
+	printf("%s\n", s);
+
+	system("pause");
+	return 0;
+}
+
 int main82()
 {
 	int s = 0, n;
